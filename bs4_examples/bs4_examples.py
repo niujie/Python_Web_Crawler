@@ -70,3 +70,27 @@ soup = BeautifulSoup(demo, "html.parser")
 # print(soup.p.string)
 
 # print(soup.p.prettify())
+
+# for link in soup.find_all('a'):
+    # print(link.get('href'))
+
+# print(soup.find_all(['a', 'b']))
+
+# for tag in soup.find_all(True):
+#     print(tag.name)
+
+# import re
+# for tag in soup.find_all(re.compile('b')):
+#     print(tag.name)
+
+# print(soup.find_all('p', 'course'))
+
+# print(soup.find_all(id='link1'))
+
+# import re
+# print(soup.find_all(id=re.compile('link')))
+
+# print(soup.find_all('a', recursive=False))
+
+# import re
+# print(soup.find_all(string = re.compile("python")))
