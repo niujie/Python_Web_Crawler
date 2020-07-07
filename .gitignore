@@ -5,3 +5,6 @@ bs4_examples/cms_scrape.csv
 .vscode
 *.jpg
 scrapy_demo/
+.ipynb_checkpoints/
+*.log
+chromedriver
