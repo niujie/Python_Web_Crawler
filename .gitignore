@@ -4,3 +4,4 @@ bs4_examples/cms_scrape.csv
 .DS_Store
 .vscode
 *.jpg
+scrapy_demo/
