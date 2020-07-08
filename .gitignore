@@ -7,4 +7,4 @@ bs4_examples/cms_scrape.csv
 scrapy_demo/
 .ipynb_checkpoints/
 *.log
-chromedriver
+chromedriver*
